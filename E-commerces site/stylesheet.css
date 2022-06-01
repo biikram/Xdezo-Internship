@@ -1,0 +1,288 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ /* first section css start */
+.main{
+    margin-top: 20px;
+    background-color:rgb(105, 103, 103);
+    height: 40px;
+    align-items: center;
+}
+.main{
+    display: flex;
+}
+.contract{
+    flex: 7;
+
+}
+.contract a{
+    text-decoration: none;
+    color: white;
+}
+.account{
+    flex: 3;
+}
+.contract{
+    display: flex;
+}
+.mail{
+    flex: 4;
+    margin-left: 50px;
+    color:red;
+   
+}
+.phone{
+    margin-left: 50px;
+    color:red;
+}
+.account a{
+    text-decoration: none;
+    color: white;
+}
+.account #icon{
+    color: red;
+}
+.account{
+    margin-left: 200px;
+}
+ /* first section css end */
+
+ /* Electro section css start */
+ .main2{
+     display: flex;
+     background-color:  #15161D;
+     align-items: center;
+     height: 100px;
+ }
+.electro{
+    flex: 3;
+}
+.electro a{
+    text-decoration: none;
+    margin-left: 50px;
+    color: white;
+    font-family:fantasy;
+    font-size: 40px;
+}
+.placeholder{
+    flex: 7;
+}
+#icon2{
+     position: absolute;
+     left: 550px;
+}
+#all{
+    margin-right: 300px;
+    height: 30px;
+    width: 300px;
+    padding-left: 20px;
+}
+ 
+.main3{
+    display: flex;
+    margin-right: 100px;
+    color: white;
+}
+.cart{
+    flex: 8;
+    margin-left: 70px;
+}
+/* Electro section css end */
+
+/* navbar section css start */
+.nav-bar{
+    background-color: rgb(235, 229, 229);
+    height: 70px;
+     padding-top: 25px;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: rgb(165, 161, 161);
+    margin-left: 20px;
+}
+a.hover{
+    color: red;
+    margin-left: 100px;
+}
+a:hover{
+    background-color: red;
+}
+/* navbar section css end */
+/* main body part css start */
+.section{
+    display: flex;
+    height:300px;
+    margin-top: 50px;
+}
+.laptop{
+    flex: 5;
+    background-color: rgba(192, 196, 201, 0.795);
+    height: 250px;
+    width: 350px;
+    margin-left: 50px;
+}
+.laptop .text{
+    position: absolute;
+    left: 120px;
+    top: 320px;
+    color:red;
+    font-family: Arial;
+    font-size: 30px;
+}
+.laptop .shop{
+    position: absolute;
+    left: 120px;
+    top: 360px;
+    color:red;
+    font-family:Arial;
+    font-size:  30px;
+}
+.section2{
+    display: flex;
+}
+.headphone{
+    flex: 1;
+    margin-left: 100px;
+     background-color: rgba(192, 196, 201, 0.795);
+    height: 250px;
+    width: 350px;
+} 
+#headphone{
+    position: absolute;
+    left: 510px;
+    top: 320px;
+    color:red;
+    font-family: Arial;
+    font-size:  30px;
+}
+#now{
+    position: absolute;
+    left: 510px;
+    top: 360px;
+    color:red;
+    font-family: Arial;
+    font-size:  30px;
+}
+.camera{
+    flex: 1;
+}
+#camera{
+    background-color: rgba(192, 196, 201, 0.795);
+    height: 250px;
+    width: 350px;
+    margin-left: 60px;
+}
+#collection{
+    position: absolute;
+    left: 950px;
+    top: 320px;
+    color:red;
+    font-family: Arial;
+    font-size:  30px;
+}
+#shop{
+    position: absolute;
+    left: 950px;
+    top: 360px;
+    color:red;
+    font-family: Arial;
+    font-size:  30px;
+}
+/* main body part css end */
+
+/* Start footer css */
+.footer{
+    display: flex;
+    background-color: rgb(17, 16, 16);
+    /* background-color: #333; */
+    color: white;
+    padding-top: 50px;
+    height: 300px;
+}
+.about{
+    flex: 5;
+    margin-left: 100px;
+}
+.about p{
+    padding-top: 20px;
+}
+.about a{
+    text-decoration: none;
+    color: white;
+}
+.about #icon{
+    color: red;
+    padding-top: 20px;
+}
+.information{
+    flex: 5;
+    margin-right:100px ;
+}
+.information p{
+    padding-top: 20px;
+}
+.footer2{
+    display: flex;
+}
+.categories{
+    flex: 5;
+    margin-left: 100px;
+}
+.categories p{
+    padding-top: 20px;
+}
+.footer3{
+    display: flex;
+    margin-right: 150px;
+}
+.service{
+    flex: 1;
+    margin-left: 100px;
+}
+.service p{
+    padding-top: 20px;
+}
+/* End footer css */
+
+/* start second body css */
+.second-body{
+    display: flex;
+    background-color: aliceblue;
+    height: 400px;
+}
+.second-body .product{
+        font-family:Impact;
+        font-size: 30px;
+        margin-left: 50px;
+}
+.newheadphone{
+    flex: 5;
+    margin-top: 50px;
+    background-color: rgba(192, 196, 201, 0.795);
+    height: 250px;
+    width: 350px;
+}
+.newlaptop{
+    flex: 5;
+    margin-top: 50px;
+    background-color: rgba(192, 196, 201, 0.795);
+    height: 250px;
+    width: 350px;
+    margin-left: 50px;
+}
+.second-body2{
+    display: flex;
+}
+.newlaptop2{
+    flex: 1;
+    margin-top: 50px;
+    background-color: rgba(192, 196, 201, 0.795);
+    height: 250px;
+    width: 350px;
+    margin-left: 50px;
+}
+
+ 
+/* end second body css */
